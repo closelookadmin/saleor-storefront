@@ -2,7 +2,7 @@ import { generatePageUrl } from "./utils";
 
 export const BASE_URL = "/";
 export const PRODUCTS_PER_PAGE = 8;
-export const SUPPORT_EMAIL = "support@example.com";
+export const SUPPORT_EMAIL = "support@instanttrailerparts.com";
 export const PROVIDERS = {
   BRAINTREE: "Braintree",
   DUMMY: "Dummy",
@@ -17,7 +17,7 @@ export const STATIC_PAGES = [
 export const SOCIAL_MEDIA = [
   {
     ariaLabel: "facebook",
-    href: "https://www.facebook.com/mirumeelabs/",
+    href: "https://www.facebook.com/instanttrailerparts/",
     path: require("../images/facebook-icon.svg"),
   },
   {
@@ -40,7 +40,7 @@ export const META_DEFAULTS = {
   custom: [],
   description: "PWA Storefront",
 
-  image: `${window.location.origin}${require("../images/logo.svg")}`,
+  image: `${window.location.origin}${require("../images/logo.png")}`,
   title: "Saleor",
   type: "website",
   url: window.location.origin,
