@@ -8,6 +8,6 @@
 dist
 node_modules
 src/locales/_build
-
+venv/
 cypress/videos
 cypress/screenshots
